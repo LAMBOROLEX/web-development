@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+    <div class = "container">
+        <h1> Welcome to the Budget Management App </h1>
+        <a href="{{url_for('login')}}" class="btn btn-primary">Login</a>
+        <a href="{{url_for('register')}}" class="btn btn-primary">Register</a>
+    </div>
+{% endblock %}
